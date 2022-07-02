@@ -1,0 +1,189 @@
+/*- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+
+- Orange: hsl(25, 97%, 53%)
+
+- Mobile: 375px
+- Desktop: 1440px*/
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.attribution{
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    padding:1em;
+}
+.attribution a{
+    text-decoration: none;
+    color: hsl(25, 97%, 53%);
+    width: 300px;
+
+}
+body{
+    background-color:hsl(240, 2%, 12%) ;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.container{
+    background-color:  hsl(213, 19%, 18%);
+    width: 400px;
+    margin: 0 auto;
+   margin-top: 5em;
+    border-radius: 2ex;
+   height: 100%;
+   padding-left: 1em;
+   padding-right: .5rem;
+
+}
+.rate-img {
+    width: 35px;
+    background-color: hsla(213, 66%, 36%, 0.295);
+    margin: 16px;
+    border-radius: 50%;
+    height: 35px;
+    padding: 9px;
+    margin-top: 2em;
+}
+
+.heading h4{
+    padding: 14px;
+    margin-top: 1em;
+    color: rgba(255, 255, 255, 0.856);
+    font-weight: 600;
+}
+.heading p{
+    font-size: 13px;
+    width: 90%;
+    padding: 15px;
+    color: hsl(216, 12%, 54%);
+}
+.ratings input{
+    padding: 15px 18px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    color:hsl(216, 12%, 54%);
+    background-color:hsla(213, 66%, 36%, 0.295);
+    
+    
+    margin:1em;
+}
+.ratings input:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+     
+}
+.ratings input:active{
+    margin-top: 1.2em;
+     
+   
+}
+
+
+
+.subBtn{
+    padding: 12px 20px;
+    width: 90%;
+    margin: 1em;
+    border: none;
+    border-radius: 5pc;
+    text-transform:uppercase;
+    font-weight: 700;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.subBtn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);   
+}
+
+.thanks{
+    text-align: center;
+    padding: 2em;
+}
+
+.app{
+    margin:0 auto;
+    width: 80%;
+    font-size: 12px;
+    color: hsl(216, 12%, 54%);
+}
+.sell{
+    background-color: hsla(213, 66%, 36%, 0.295);
+    width: 100%;
+    border-radius: 5pc;
+    padding-right: 12px;
+
+}
+.thanks img{
+    margin: 12px;
+}
+.thanks h5{
+    margin: 12px;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+
+}
+@media  screen and (max-width:320px) {
+    .container{
+        width: 60%;
+        margin: 2em;
+        overflow: hidden;
+    }
+    .ratings input{
+        padding: 8px 10px;
+        border-radius: 50%;
+        outline: none;
+        border: none;
+        color:hsl(216, 12%, 54%);
+        background-color:hsla(213, 66%, 36%, 0.295);
+        
+        
+        margin:.5em;
+    }
+    .subBtn{
+        width: 70%;
+        padding:6px 10px;
+    }
+    .heading p{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:1025px) {
+    .container{
+        background-color:  hsl(213, 19%, 18%);
+        width: 310px;
+        margin: 0 auto;
+       margin-top: 5em;
+        border-radius: 2ex;
+       height: 100%;
+       
+    
+    }
+    .ratings input{
+        
+        border-radius: 50%;
+        outline: none;
+        border: none;
+        color:hsl(216, 12%, 54%);
+        background-color:hsla(213, 66%, 36%, 0.295);
+        
+        
+        margin:.2em;
+    }
+    .subBtn{
+        width: 90%;
+       
+    }
+    .heading p{
+        width: 90%;
+    }
+    
+    
+}
